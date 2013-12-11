@@ -1,0 +1,10 @@
+defaults: &defaults
+  twitter:
+    client_id: VRWUXzQJRkyxLL4NhoRMA
+    cliend_secret: R6pdtGfL8Na7zRoLiCxEI30ETn4brhm0GBtahklBd0
+development:
+  <<: *defaults
+test:
+  <<: *defaults
+production:
+  <<: *defaults
